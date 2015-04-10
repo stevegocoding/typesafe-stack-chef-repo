@@ -17,5 +17,6 @@ override_attributes(
 run_list(
   "recipe[java::oracle]",
   "recipe[scala]",
+  "recipe[sbt-extras::default]",
   "recipe[typesafe-stack]"
 )
